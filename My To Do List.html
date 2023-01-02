@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My To Do List</title>
+    <style>
+        li {
+        font-family:arial;
+        list-style-type:none;
+        width:500px;
+        padding:10px;
+        background: left url(/unchecked_16.png) no-repeat;
+        }
+        .symbol {
+        font-size:7px;
+        margin-left:30px
+        }
+       .Yes {
+        background:left url(/checked_16.png) no-repeat;
+        }
+        li:nth-child(1n) {
+        background-color:#a5ccda;
+        }
+        li:nth-child(2n) {
+        background-color:#add8e6;
+        }
+       .Yes:nth-child(1n) {
+        background-color:#e2e2e2}
+        .retreat{
+        margin-left:20px}
+    </style>
+</head>
+<body>
+<h1 style="font-family:Arial; margin-left:35px">My To Do List</h1>
+<ol>
+    <li><span class="retreat">Hit the gym</span><span class="symbol">&#10060</span></li>
+    <li class="Yes"><span class="retreat"><del>Pay bills</del></span><span class="symbol">&#10060</span></li>
+    <li><span class="retreat">Meet John</span><span class="symbol">&#10060</span></li>
+    <li><span class="retreat">Buy eggs</span><span class="symbol">&#10060</span></li>
+    <li class="Yes"><span class="retreat"><del>Read a book</del></span><span class="symbol">&#10060</span></li>
+    <li><span class="retreat">Organize office</span><span class="symbol">&#10060</span></li>
+    <li><span class="retreat">Eat dinner</span><span class="symbol">&#10060</span></li>
+    <li><span class="retreat">Buy apples</span><span class="symbol">&#10060</span></li>
+    <li><span class="retreat">Meet George</span><span class="symbol">&#10060</span></li>
+    <li><span class="retreat">Feed the cat</span><span class="symbol">&#10060</span></li>
+    <li class="Yes"><span class="retreat"><del>Write a letter</del></span><span class="symbol">&#10060</span></li>
+    <li><span class="retreat">Run 1 km</span><span class="symbol">&#10060</span></li>
+</ol>
+</body>
+</html>
